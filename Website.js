@@ -3,6 +3,8 @@ var btn = document.querySelector("#btn")
 var statuss = document.querySelector("h2")
 var page = document.querySelector("html")
 var fr = document.querySelector("#frame")
+var love = document.querySelector("i")
+var image = document.querySelector("img")
 
 var lightCnt = 0
 light.addEventListener("click", function() {
@@ -40,4 +42,15 @@ btn.addEventListener("click", function() {
         stat = 0
     }  
 })
+
+image.addEventListener("dblclick", function(){
+    if(love.style.color == "white") {
+        love.style.color = "yellow"
+        love.style.opacity = 1;
+    }else {
+        love.style.color = "white"
+        love.style.opacity = 1;
+    }
+})
+
 

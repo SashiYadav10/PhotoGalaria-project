@@ -27,7 +27,7 @@ html, body{
     display: block;
     margin-top: 5%;
     margin-left: 25%;
-    background-color: rgb(254, 253, 253);
+    background-color: rgb(5, 5, 5);
     height: 400px;
     width:400px;
     border-radius: 2%;
@@ -36,6 +36,8 @@ html, body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
+    
 
 }
 
@@ -44,6 +46,13 @@ html, body{
     width: 100%;
     object-fit: cover;
     object-position: center;
+    
+}
+
+#frame i {
+    color: rgb(249, 246, 246);
+    font-size: 30px;
+    opacity: 1;
 }
 h1{
     color: red;
