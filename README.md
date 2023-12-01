@@ -1,2 +1,2 @@
-# PhotoGalaria-project
-A website for my photos.
+# PhotoDayNightMode-project
+A photo display with day night mode.
